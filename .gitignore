@@ -1,0 +1,69 @@
+# Игнорировать ВСЁ по умолчанию
+*
+
+# Разрешить папки (сохраняем структуру)
+!*/
+
+# Разрешить скрипты ps1 для винды, удобно все таки
+!*.ps1
+
+# Разрешить .git и связанные файлы
+!.git/
+!.gitignore
+!.gitattributes
+
+# Разрешить исходники C/C++
+!*.c
+!*.cpp
+!*.h
+!*.hpp
+!*.sln
+!*.vcxproj
+!*.vcxproj.filters
+!*.pas
+
+# Разрешить README и LICENSE
+!README*
+!LICENSE*
+
+# Игнорировать бинарные и временные файлы
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.ipch
+*.tlog
+*.lastbuildstate
+*.suo
+*.user
+*.bin
+*.ipdb
+*.iobj
+*.manifest
+*.sarif
+*.log
+*.tmp
+*.temp
+
+# Игнорировать документы
+*.pdf
+*.md5
+*.map
+*.svg
+*.eps
+*.tex
+
+# Игнорировать системные файлы
+.DS_Store
+Thumbs.db
+
+# Игнорировать резервные копии
+*~
+*.bak
+*.backup
+
+# Игнорировать архивы
+*.zip
+*.rar
+*.7z
